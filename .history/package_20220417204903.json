@@ -1,0 +1,28 @@
+{
+    "name": "ransh",
+    "displayName": "GruvBox",
+    "description": "the gruvbox theme for vscode",
+    "version": "0.0.1",
+    "author": "jdinhify (https://github.com/jdinhify)",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+		"color": "#3c3836",
+		"theme": "dark"
+	},
+	"publisher": "Ransh",
+    "icon": "images/icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "GrunBoxTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GrunBoxTheme-color-theme.json"
+            }
+        ]
+    }
+}

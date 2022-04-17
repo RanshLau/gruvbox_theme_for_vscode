@@ -1,0 +1,23 @@
+{
+    "name": "ransh",
+    "displayName": "GruvBox",
+    "description": "the gruvbox theme for vscode",
+    "version": "0.0.1",
+    "author": "Ransh (https://github.com/1466690577)",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"publisher": "Ransh",
+    "contributes": {
+        "themes": [
+            {
+                "label": "GrunBoxTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GrunBoxTheme-color-theme.json"
+            }
+        ]
+    }
+}
